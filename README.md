@@ -7,7 +7,7 @@ The purpose of this application is helping the user to write and save notes in o
 - # Technologies
 
 This application is run by the Node.js web application framework called Express.js. Other technologies like HTML, CSS and JavaScript were also needed.
-In order to run this application it is necessary to install node.js, express.js, package.json and the node_modules folder. The commands to run it are "npm start" or "node server.js"
+In order to run this application it was necessary to install node.js, express.js, package.json and the node_modules folder. The commands to run the backend  are "npm start" or "node server.js" from the server.js file in the integrated terminal. When using Express.js, the http methods GET, POST and DELETE were implemented to achieve the purpose of this project.
 
 - # Screenshots
 
