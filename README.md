@@ -10,8 +10,10 @@ This application is run by the Node.js web application framework called Express.
 In order to run this application it is necessary to install node.js, express.js, package.json and the node_modules folder. The commands to run it are "npm start" or "node server.js"
 
 - SCREENSHOTS
+
 ![screnshot1.png](https://github.com/DinaLo44/note-taker-app/blob/main/screenshots/screenshot1.png)
-![screenshot2.png](URL GitHub created)
+
+![screenshot2.png](https://github.com/DinaLo44/note-taker-app/blob/main/screenshots/screenshot2.png)
 
 - LINK OF DEPLOYED APPLICATION IN HEROKU
 
