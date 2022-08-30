@@ -44,19 +44,22 @@ app.post("/api/notes", (req, res) => {
 
 // DELETE Method
 app.delete("/api/notes/:id", (req, res) => {
-const deleteId = parseInt(req.params.id);
+const deleteId = req.params.id;
+
 for(let i = 0; i < notes.length; i++) {
+    console.log(notes[i].id, deleteId)
     if (notes[i].id === deleteId) {
-    notes.splice(i, 1);
+        notes.splice(i, 1);
+    
     }
 }
 console.log(notes);
 
 fs.writeFileSync('./db/db.json', JSON.stringify(notes), error => {
     if (error) throw error;
-    res.json(notes);
+   
 });
-    
+res.json(notes);
 });
 
 app.get('*', (req, res) =>
